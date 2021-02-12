@@ -1,7 +1,6 @@
 /* Estilo para Tablet */
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
-
 	/* qualidade home */
 	.qualidade:after {
 		right: 66px;
@@ -43,7 +42,6 @@
 		width: 181px;
 	}
 }
-
 
 /* Estilo para Smartphone */
 @media only screen and (max-width: 787px) {

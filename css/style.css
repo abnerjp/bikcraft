@@ -114,12 +114,12 @@ img {
   color: #fff;
 }
 
-
 /* Introdução */
 .introducao {
   width: 100%;
   height: 380px;
   background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
   margin-top: 92px;
   text-align: center;
   padding-top: 80px;
@@ -414,6 +414,20 @@ img {
   background-color: #1d1d1d;
 }
 
-[data-slide-nav] button.active{
+.js [data-slide-nav] button.active{
   background-color: #fec63e;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+  transition: 800ms;
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
 }

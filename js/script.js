@@ -4,11 +4,15 @@ if (window.SimpleSlide) {
     auto: true,
     time: 5000,
   });
-  
+
   new SimpleSlide({
     slide: "portifolio",
     auto: true,
-    time: 10000,
-    nav: true
+    time: 7000,
+    nav: true,
   });
+}
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
 }
