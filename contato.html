@@ -13,12 +13,7 @@
     <meta name="viewport" content="width=device=width, initial=scale=1" />
     <link rel="shrortcut icon" href="favicon.ico">
     
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/contato.css" />
-    <link rel="stylesheet" href="css/responsivo.css" />
     <script>document.documentElement.classList.add("js");</script>
   </head>
   <body>
@@ -43,7 +38,6 @@
         <p data-anime="600" class="fadeInDown">tire suas dúvidas com a gente</p>
       </div>
     </section>
-
     <section class="contato container fadeInDown" data-anime="400">
       <form id="form-orcamento" method="POST" action="./enviar.php" class="grid-8 contato-form form-php">
         <label for="nome">Nome</label>
@@ -60,7 +54,7 @@
         <label for="telefone">Telefone</label>
         <input type="text" id="telefone" name="telefone" />
         <label for="mensagem">Mensagem</label>
-        <textarea type="text" id="mensagem" name="mensagem" required></textarea>
+        <textarea id="mensagem" name="mensagem" required></textarea>
         <button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
       </form>
       <div class="contato-dados grid-8">
@@ -92,7 +86,7 @@
     <section class="container contato-mapa">
       <a href="https://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
     </section>
-    <section class="quebra">
+    <div class="quebra">
       <blockquote class="quote-externo container">
         <p>
           o verdadeiro segredo da felicidade está em ter um genuíno interesse
@@ -100,7 +94,7 @@
         </p>
         <cite>WILLIAM MORRIS</cite>
       </blockquote>
-    </section>
+    </div>
     <footer>
       <div class="footer">
         <div class="container">
